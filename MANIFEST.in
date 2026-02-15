@@ -1,0 +1,8 @@
+include README.md
+include LICENSE
+include requirements.txt
+recursive-include hybrid4in1 *.py
+recursive-include hybrid4in1/templates *.html
+recursive-include hybrid4in1/static *
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
